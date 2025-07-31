@@ -1,4 +1,4 @@
-##Navigate to agent_s2_project/android_world/android_world/qa_team_agents for project files
+
 
 # QA Team Agents - Android Task Automation System
 
