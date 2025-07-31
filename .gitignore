@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+android_env_3_11/
+qualgent2/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+verifier_log_*.json
+*_report_*.json
+
+# Visual traces
+visual_traces/
+example_visual_traces/
+task_file_visual_traces/
+
+# Generated files
+subtasks.json
+generated_subtasks.json
+agent_workflow_results_*.json
+
+# Environment files with secrets
+.env
+*.env
+.env.local
+.env.production
+
+# API Keys and secrets
+*api_key*
+*secret*
+*password*
+*token*
+
+# Configuration files that might contain secrets
+config.json
+secrets.json
+credentials.json

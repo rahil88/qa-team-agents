@@ -1,0 +1,44 @@
+{
+  "goal": "Access Wi-Fi settings and toggle Wi-Fi on/off",
+  "description": "Navigate to Wi-Fi settings and toggle the Wi-Fi connection",
+  "expected_outcome": "Wi-Fi settings should be accessible and Wi-Fi can be toggled",
+  "difficulty": "medium",
+  "estimated_duration": "2-3 minutes",
+  "prerequisites": [
+    "Android device should be unlocked",
+    "Settings app should be accessible"
+  ],
+  "subtasks": [
+    {
+      "name": "open settings app",
+      "info": "Locate and tap the Settings gear icon from home screen or app drawer to launch Settings application"
+    },
+    {
+      "name": "wait for settings to load",
+      "info": "Wait for Settings app to fully load and display the main menu with scrollable categories"
+    },
+    {
+      "name": "tap network & internet",
+      "info": "Scroll if needed and tap 'Network & internet' option in Settings main menu to access network settings"
+    },
+    {
+      "name": "tap internet option",
+      "info": "In Network & internet page, tap 'Internet' option to access Wi-Fi and mobile data settings"
+    },
+    {
+      "name": "toggle wifi switch",
+      "info": "Locate the Wi-Fi toggle switch at the right side of Wi-Fi option and tap to enable or disable Wi-Fi connectivity"
+    }
+  ],
+  "verification_criteria": [
+    "Settings app opens successfully",
+    "Network & internet section is accessible",
+    "Wi-Fi toggle is visible and functional",
+    "Wi-Fi state changes when toggle is pressed"
+  ],
+  "success_indicators": [
+    "Wi-Fi settings screen is displayed",
+    "Wi-Fi toggle switch is present and clickable",
+    "Wi-Fi state changes as expected"
+  ]
+} 
